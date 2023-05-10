@@ -1,0 +1,29 @@
+[
+  "<?xml version="1.0" encoding="UTF-8"?>" 
+  "<?xml-stylesheet type='text/xsl'?>" 
+  [
+    (:PLANT [
+        (:COMMON "rose") 
+        (:BOTANICAL "canadensis") 
+        (:ZONE "4") 
+        (:LIGHT ({:if :true} "Shady")) 
+        (:PRICE "202") 
+        (:AVAILABILITY "446")]
+    ) 
+   (:PLANT [(:COMMON "mango") (:BOTANICAL "sunny") (:ZONE "3") (:LIGHT "shady") (:PRICE "301") (:AVAILABILITY "569")]) 
+   (:PLANT [(:COMMON "Marigold") (:BOTANICAL "palustris") (:ZONE "4") (:LIGHT "Sunny") (:PRICE "500") (:AVAILABILITY "799")]) 
+   (:PLANT [(:COMMON "carrot") (:BOTANICAL "Caltha") (:ZONE "4") (:LIGHT "sunny") (:PRICE "205") (:AVAILABILITY "679")]) 
+   (:FOOD [(:NAME "daal fry") (:PRICE "300") (:DESCRIPTION "
+        Famous daal tadka from surat
+        ") (:CALORIES "60")]) 
+   (:FOOD [(:NAME "Dhosa") (:PRICE "350") (:DESCRIPTION "
+        The famous south indian dish
+        ") (:CALORIES "80")]) 
+   (:FOOD [(:NAME "Khichdi") (:PRICE "150") (:DESCRIPTION "
+        The famous gujrati dish
+        ") (:CALORIES "40")]) 
+   (:BOOK [(:AUTHOR "Santosh Bihari") (:TITLE "PHP Core") (:GENER "programming") (:PRICE "44.95") (:DATE "2000-10-01")]) 
+   (:BOOK [(:AUTHOR "Shyam N Chawla") (:TITLE ".NET Begin") (:GENER "Computer") (:PRICE "250") (:DATE "2002-17-05")]) 
+   (:BOOK [(:AUTHOR "Anci C") (:TITLE "Dr. Ruby") (:GENER "Computer") (:PRICE "350") (:DATE "2001-04-11")])
+  ]
+ ]

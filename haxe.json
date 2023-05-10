@@ -1,0 +1,16 @@
+{
+  "build" : {
+    "-cp"  : "src/main/haxe",
+    "-lib" : ["stx_pico","stx_nano","stx_log","stx_ds"],
+    "test" : {
+      "--debug"       : true,
+      "-lib"          : ["stx_test"],
+      "--resource"    : ["asset/Sample-XML-With-Multiple-Records.xml@Sample-XML-With-Multiple-Records"],
+      "-cp"           : "src/test/haxe",
+      "-main"         : "eu.ohmrun.pml.term.xml.Test",
+      "interp" : {
+        "--interp" : true
+      }
+    }
+  } 
+}
