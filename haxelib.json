@@ -1,0 +1,19 @@
+{
+    "name": "pml_xml",
+    "license": "MIT",
+    "tags": [
+        "cross",
+        "functional"
+    ],
+    "description": "PML <-> XML",
+    "contributors": [
+        "0b1kn00b"
+    ],
+    "releasenote": "initial",
+    "version": "0.1.0",
+    "url": "https://github.com/ohmrun/pml_xml",
+    "dependencies": {
+
+    },
+    "classPath": "src/main/haxe"
+}
