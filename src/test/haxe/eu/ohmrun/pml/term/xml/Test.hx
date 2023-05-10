@@ -4,7 +4,7 @@ using stx.Nano;
 using stx.Test;
 using stx.Log;
 
-import eu.ohmrun.pml.term.xml.XmlToPml;
+import eu.ohmrun.pml.term.Xml;
 
 class Test{
   static public function main(){
